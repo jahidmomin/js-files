@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let a=[
+			["jahid",14,"M","Phd"],
+			["chetan",18,"M","M.Com","Gap"],
+			["some",28,"F","B.Com"]
+		]
+
+		// i=rowss =>3
+		//j=>cols=>4
+		
+		document.write("<table border=1>")
+		for(let i=0;i<a.length;i++){
+			document.write("<tr>")
+				for(let j=0;j<a[i].length;j++)
+				{
+					document.write("<td>"+a[i][j]+"</td>");
+				}
+			document.write("</tr>");
+		}
+		document.write("</table>")
+
+
+
+
+		//modification in array
+		let newArr=["jahid",18,"M","Phd"];
+		console.log(newArr);
+		newArr[1]=20;
+		console.log(newArr)
+
+
+		//delete operation in array
+		delete newArr[1];
+		console.log(newArr);
+
+
+		let numbers=["BH","BA","AC","FD"];
+		console.log(numbers);
+		numbers.sort();
+		console.log(numbers);
+	</script>
+</body>
+</html>

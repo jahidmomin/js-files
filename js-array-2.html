@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Array</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let a=[10,20,30,40,50];
+
+		let b=[];
+		//set value in array
+		b[0]=100;
+		b[1]=200;
+		
+
+		//second way to create an array.
+		let fruits=new Array(); 
+
+		// fruits[0]="Mango";
+		// fruits[1]="Banana";
+		// fruits[3]="Watermelon";
+
+		int fno=5;
+		//set values in array
+		for(let i=0;i<fno;i++){
+			fruits[i]=prompt(`Enter a ${i+1} Fruit Name`);
+		}
+
+		//dispaly
+		for(let i=0;i<fruits.length;i++){
+			console.log(fruits[i]);
+		}
+	</script>
+</body>
+</html>

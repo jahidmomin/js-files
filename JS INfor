@@ -1,0 +1,48 @@
+JS ---
+Implentation with HTML.
+	CSS -> 3
+	JS -> 2
+		1} HTML PAGE -> JS > Script Tag.
+		2} External JS -> .js -> Script -> Link. 
+
+HTML => JS
+JS -> HTML
+
+DOM -> Document 
+document.write("sadsada");
+Test cases => string + number
+			  number + number
+-> () Priority
+
+
+JS comments:
+	2 types:
+		single line comments
+		multi line comments	
+
+
+Variables:
+	?? , 
+	3 ways to define varriables:
+		1}  var keywords - 
+		2}  let keywords -
+		3}  const keywords -
+
+		CONST A=0;
+
+	funcation(){
+	//code}
+
+	fun(){//code}
+
+	let :
+		let var_name;
+	const
+
+datatypes
+
+Artithmetic Operators:
+
+Console | Debugger
+
+COmparison Operators

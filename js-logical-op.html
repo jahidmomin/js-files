@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Logical Op</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		// && -> Logical AND
+		// || -> Logical OR
+		// ! -> Logical NOT
+
+		// codition 1 && codition 2 -> T T -> T -> 1*1->1
+		// codition 1 && codition 2 -> T F -> F -> 1*0->0
+		// codition 1 && codition 2 -> F T -> F -> 0*1->0
+		// codition 1 && codition 2 -> F F -> F -> 0*0->0
+		
+		// codition 1 || codition 2 -> T T -> T-> 1+1=>1
+		// codition 1 || codition 2 -> T F -> T-> 1+0=>1
+		// codition 1 || codition 2 -> F T -> T-> 0+1=>1
+		// codition 1 || codition 2 -> F F -> F-> 0+0=>0
+		
+		// !true => false
+		// !false=> true
+
+		let age=61;
+		// 20>=18 && 20<=60
+		if (age>=18 && age<=60) {
+			console.log("Eligible For Voting")
+		}
+
+		let num1=10;
+		let num2=50;
+
+		if (num1>=25 || num2<=25) {
+			console.log("ok");
+		}
+
+		let num3=101;
+		// !false=true
+		if (!(num3!=101)) {
+			console.log("Perfect")
+		}
+
+	</script>
+</body>
+</html>

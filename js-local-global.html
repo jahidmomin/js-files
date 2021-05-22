@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Local Global</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		//global scope
+		let a=10;
+
+		function myFun() {
+			//local scope
+			let b=20;
+			console.log(b);
+		}
+
+		function myFun2(){
+			console.log(a);
+		}
+
+		myFun();
+		myFun2();
+	</script>
+
+
+	<script type="text/javascript">
+		function myFun3(){
+			console.log(a+30);
+		}
+		myFun3();
+	</script>
+
+
+
+	<script type="text/javascript">
+		
+		// function(){}
+		// let a=10;
+		// let c=20;
+
+
+		let getFirstName=function(){
+			return"Hello";
+		}
+
+		//arrow fun
+		let getName=(fname,lname)=>fname+lname;
+
+		let fname="somethinf";
+		console.log("Hello "+fname);
+
+		console.log(
+			`Hello ${fname} Good morning`
+		)
+
+		console.log(getFirstName());
+		console.log(getName("Jahid","WebDev"));
+	</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Events</title>
+</head>
+<body onkeypress="greet()">
+
+	<button onclick="sayHello('Jahid')" >Submit</button>
+
+	<button ondblclick="greet()" >Greet</button>
+
+<!-- 	<div onmousedown="greet()">
+		Hover Me
+	</div> -->
+
+	<!-- onscroll -->
+	<!-- onresize -->
+
+	<script type="text/javascript">
+		let sayHello=name=>alert(`Hello , ${name}`)
+
+		let greet=()=>document.write("Welcome");
+
+		// sayHello("Jahid");
+	</script>
+</body>
+</html>
