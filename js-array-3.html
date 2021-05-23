@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Array</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let arr=[10,20,30,40,50,60];
+		let arrS=["Jahid","Web dev","Some","sadsadsadsad"]
+
+		console.log(arrS.includes("Some"))
+
+		let printArr=function(elements,index){
+			console.log(elements+" index is "+index);
+		}
+
+		arrS.forEach(printArr);
+
+		arrS.forEach(
+			function(elements,index){
+			console.log(elements+" index is "+index);
+			}
+		)
+
+
+		arrS.forEach(
+			(elements,index)=>{
+			console.log(elements+" index is "+index);
+			}
+		)
+		// console.log(arr.slice(2,5))
+
+		// let newArr=arr.splice(2,0,10);
+
+
+		// console.log(arrS.splice(2,2,"NEW","NEW@"));
+		// console.log(arrS)
+
+
+		// console.log(arr.concat(arrS));
+
+		// console.log(typeof 	arrS.toString());
+
+		// console.log(arr.pop());//40
+		// arr.pop();//30
+
+		// arr.push(50);
+		// arr.push(36);
+
+
+		// arr.shift();
+		// arr.shift();
+
+		// arr.unshift(100);
+
+
+		// console.log(arr);
+		// console.log("Rev"+arr.reverse())
+
+		// console.log(arr.indexOf(36))
+
+
+	</script>
+</body>
+</html>
